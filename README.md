@@ -81,6 +81,13 @@ SILLYTAVERN_ACCESS_COOKIE='CF_Authorization=…' SILLYTAVERN_E2E_ONLY=system,cor
 
 The `ai` and `vectors` suites consume configured Cloudflare AI capacity. The test runner creates uniquely named data and performs best-effort cleanup.
 
+
+
+
+## Trigger a build
+
+just to trigger a build
+
 ## License and source
 
 The combined work is licensed under GNU AGPL-3.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The corresponding source for the network service is published at <https://github.com/ZUENS2020/SillyTavern-Serverless-Edition>.
