@@ -71,9 +71,9 @@
   "vars": {
     "APP_NAME": "SillyTavern Serverless Edition",
     "APP_VERSION": "2.0.0-serverless.0",
-    "APP_ORIGIN": "https://sillytavern.zuens2020.work",
-    "ACCESS_TEAM_DOMAIN": "https://zuens2020.cloudflareaccess.com",
-    "ACCESS_AUD": "74f038e895717b459e07476145eefbc7cfe105c723927d51917bb2a4898592ad",
+    "APP_ORIGIN": "https://sillytavern.sigmund.moe",
+    "ACCESS_TEAM_DOMAIN": "https://moapyr.cloudflareaccess.com",
+    "ACCESS_AUD": "d53361ca4f4cb6a9dc2ee11c9d72d60f38b7b45a6c93f8e3f63e78763403bba6",
     "AI_GATEWAY_ID": "sillytavern",
     "EMBEDDING_MODEL": "@cf/baai/bge-m3",
     "EMBEDDING_SCHEMA_VERSION": "1",
