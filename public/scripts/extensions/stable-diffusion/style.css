@@ -1,0 +1,8 @@
+.sd_gateway_settings textarea {
+    min-height: 7em;
+    resize: vertical;
+}
+
+.sd_gateway_settings .info-block {
+    margin-bottom: 0.75rem;
+}

@@ -1,0 +1,91 @@
+.serverless-gallery-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.serverless-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+    padding: 8px;
+}
+
+.serverless-gallery-item {
+    position: relative;
+    min-height: 140px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 6px;
+    background: var(--black50a);
+}
+
+.serverless-gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+}
+
+.serverless-gallery-video-badge {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--black70a);
+    color: white;
+}
+
+.gallery-folder-input {
+    background-color: transparent;
+    font-size: calc(var(--mainFontSize)* 0.9);
+    opacity: 0.8;
+    flex-grow: 1;
+}
+
+.gallery-folder-input:placeholder-shown {
+    font-style: italic;
+    opacity: 0.5;
+    border-color: transparent;
+}
+
+.gallery-sort-select {
+    width: max-content;
+    flex: 1;
+    cursor: pointer;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    opacity: 0.8;
+    background-color: var(--black30a);
+    border: 1px solid var(--SmartThemeBorderColor);
+    background-image: url(/img/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 6px center;
+    background-size: 8px 5px;
+    padding-right: 20px;
+    margin-bottom: 0;
+}
+
+#gallery .dragTitle {
+    margin-right: 30px;
+}
+
+#dragGallery {
+    min-height: 25dvh;
+}
+
+#gallery .right_menu_button.warning {
+    opacity: 1;
+    filter: unset;
+}
+
+.galleryImageDraggable video {
+    width: 100%;
+}

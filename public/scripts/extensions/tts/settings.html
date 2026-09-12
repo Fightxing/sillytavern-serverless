@@ -1,0 +1,35 @@
+<div id="tts_settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>Speech (AI Gateway)</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div class="info-block hint">
+                Speech uses only the configured <code>tts</code> and <code>stt</code> AI Gateway capabilities. Local models, browser speech engines, custom endpoints, and provider API keys are disabled.
+            </div>
+            <div id="tts_status" aria-live="polite"></div>
+            <label class="checkbox_label" for="tts_enabled">
+                <input type="checkbox" id="tts_enabled">
+                <span>Enable speech</span>
+            </label>
+            <label class="checkbox_label" for="tts_auto_generation">
+                <input type="checkbox" id="tts_auto_generation">
+                <span>Automatically narrate new messages</span>
+            </label>
+            <label class="checkbox_label" for="tts_narrate_user">
+                <input type="checkbox" id="tts_narrate_user">
+                <span>Include user messages</span>
+            </label>
+            <label for="tts_voice">Gateway voice hint</label>
+            <input id="tts_voice" class="text_pole width100p" type="text" maxlength="128" placeholder="Optional voice ID">
+            <label for="tts_playback_rate">Playback speed</label>
+            <input id="tts_playback_rate" class="text_pole width100p" type="number" min="0.5" max="2" step="0.05">
+            <div class="flex-container flexGap5 marginTop10">
+                <button id="tts_preview" class="menu_button" type="button">Preview voice</button>
+                <button id="stt_select" class="menu_button" type="button">Transcribe audio</button>
+                <input id="stt_file" type="file" accept="audio/*" hidden>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+#tts_status {
+    min-height: 1.5em;
+    margin: 0.5rem 0;
+    opacity: 0.8;
+}
+
+#tts_status.error {
+    color: var(--warning-color, #d65d5d);
+}
+
+#tts_settings .inline-drawer-content > label:not(.checkbox_label) {
+    display: block;
+    margin-top: 0.5rem;
+}

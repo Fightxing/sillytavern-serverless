@@ -1,0 +1,34 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+.DS_Store
+test-results/
+coverage/
+backups/
+
+# Local browser-generated content must never become source assets.
+public/chats/
+public/characters/
+public/User Avatars/
+public/backgrounds/
+public/groups/
+public/group chats/
+public/worlds/
+public/user/
+public/themes/
+public/movingUI/
+public/QuickReplies/
+# Operator-installed UI extensions stay local. The probe, README, and keep file are tracked.
+public/scripts/extensions/third-party/*
+!public/scripts/extensions/third-party/.gitkeep
+!public/scripts/extensions/third-party/README.md
+!public/scripts/extensions/third-party/st-serverless-probe/
+!public/scripts/extensions/third-party/st-serverless-probe/**
+public/css/user.css
+public/settings.json
+public/stats.json
